@@ -6,12 +6,22 @@
 }
 
 @font-face {
-    font-family: 'Matter','Roboto Flex';
-    src: url('matter-regular.ttf') format('truetype');
-      src: url('roboto-flex-variable-full.ttf') format('truetype');
+    font-family: 'Matter Light','Matter Regular', 'Roboto Flex';
+    src: url('matter-light.ttf') format('truetype'),
+    url('matter-regular.ttf') format('truetype'),
+    url('roboto-flex-variable-full.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Matter Light','Matter Regular', 'Roboto Flex';
+    src: url('../font/C:\Users\Prabhat\Desktop\Prabhat 's  Codng Playground\Projects\Cuberto\Cuberto_clone\matter-light.ttf') format('truetype'),
+    url('../font/C:\Users\Prabhat\Desktop\Prabhat 's  Codng Playground\Projects\Cuberto\Cuberto_clone\matter-regular.ttf.') format('truetype'),
+    url('../font/C:\Users\Prabhat\Desktop\Prabhat 's  Codng Playground\Projects\Cuberto\Cuberto_clone\roboto-flex-variable-full.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
 
 
 *::selection{
