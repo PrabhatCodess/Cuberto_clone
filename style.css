@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Matter','Roboto Flex';
+    src: url('matter-regular.ttf') format('truetype');
+      src: url('roboto-flex-variable-full.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 *::selection{
     color: #FFFF;
     background-color:#000 ;
@@ -20,6 +29,8 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
 }
+
+
 
 
 $('html').css('overflow', 'hidden');
